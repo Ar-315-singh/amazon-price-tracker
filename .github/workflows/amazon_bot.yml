@@ -2,7 +2,7 @@ name: Amazon Discount Tracker
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Har 3 ghante mein chalega
+    - cron: '0 */6 * * *' 
   workflow_dispatch: # Manual chalane ke liye
 
 jobs:
